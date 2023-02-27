@@ -7,6 +7,9 @@ export default function Menu() {
       <nav className={styles.menu}>
         <Logo />
       </nav>
+      <header className={styles.header}>
+        <div className={styles.header__text}>Sample text</div>
+      </header>
     </main>
   );
 }
