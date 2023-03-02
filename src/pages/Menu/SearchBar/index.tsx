@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./SearchBar.module.scss";
+import styles from "./SearchBar.module.css";
 import { CgSearch } from "react-icons/cg";
 
 interface Props {

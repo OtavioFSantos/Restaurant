@@ -1,4 +1,4 @@
-import styles from "./Order.module.scss";
+import styles from "./Order.module.css";
 import options from "./options.json";
 import classNames from "classnames";
 import React, { useState } from "react";

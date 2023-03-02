@@ -1,4 +1,4 @@
-import styles from "./Item.module.scss";
+import styles from "./Item.module.css";
 import menu from "../items.json";
 import classNames from "classnames";
 
