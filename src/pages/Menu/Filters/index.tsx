@@ -1,5 +1,5 @@
 import filters from "./filters.json";
-import styles from "./Filter.module.scss";
+import styles from "./Filters.module.css";
 import React from "react";
 import classNames from "classnames";
 
