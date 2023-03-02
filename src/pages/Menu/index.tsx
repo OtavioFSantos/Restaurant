@@ -1,5 +1,5 @@
-import styles from "./Menu.module.scss";
-import { ReactComponent as Logo } from "assets/logo.svg";
+import styles from "./Menu.module.css";
+import { ReactComponent as Logo } from "../../assets/logo.svg";
 import SearchBar from "./SearchBar";
 import { useState } from "react";
 import Filters from "./Filters";
@@ -26,7 +26,7 @@ export default function Menu() {
           <Filters filter={filter} setFilter={setFilter} />
           <Order order={order} setOrder={setOrder} />
         </div>
-        <Items />
+        <Items search={search} filter={filter} order={order} />
       </section>
     </main>
   );
